@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body style="background-color: rgb(169, 145, 115);">
+    <h1> Registro de usuario </h1>
+    <hr>
+    <nav>
+        <a target="_blank" href="/pages/index.html"> Home </a>
+    </nav>
+    <!--FORMULARIO DE REGISTRO-->
+    <form action="#">
+        <label for="nombre">"Ingrese su nombre" </label>
+        <br>
+        <input type="text" id="nombre" placeholder="nombre" required size="15"> <br> <br>
+        <label for="email"> Ingrese su correo</label>
+        <br>
+        <input type="email" id="email" placeholder="email"> <br> <br>
+        <label for="">Ingrese su contraseña</label>
+        <br>
+        <input type="password" id="password" placeholder="contraseña" required size="30"> <br> <br>
+        <label for="">Ingrese su edad</label>
+        <br>
+        <input type="number" id="edad"> <br> <Br>
+
+        <label for="">fecha de naciemiento</label>
+        <br>
+        <input type="date" id="fecha"> <br> <br>
+        <br>
+
+        <P>Genéro</P>
+        <input type="radio" id="masculino" name="genero">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="femenino" name="genero">
+        <label for="femenino">femenino</label>
+
+        <input type="radio" id="otro" name="genero">
+        <label for="otro">Otro</label> <br> <br>
+
+        <label for="ciudad"> Ciudad</label> <br>
+        <select name="ciudad id="ciudad">
+        <option value="uio">Quito</option>
+        <option value="cuenca">Cuenca</option>
+        <option value="ltga">Latacunga</option>
+        <option value="ibarra">Ibarra</option>
+        <option value="gye">Guayaquil</option>
+        </select> <br> <br>
+        <label for="comentario">Escriba sus comentarios</label><br>
+        <textarea name="comentarios" id="comentario" rows="5" cols="40">
+        </textarea><br><br>
+
+        <label for="">Suba su fotografía</label><br>
+        <input type="file" id="foto"><br><br>
+        <input type="checkbox" id="condiciones">
+        <label for="condiciones">Acepto los términos y condiciones </label> <br><br> 
+
+        <!--Botones-->
+        <button type="button" onclick="alert('hola mundo XD')">Botón simple</button>
+        <input type="submit" value="Botón registrar">
+        <input type="reset" value="limpiar formulario">
+
+    </form>
+
+</body>
+</html>
